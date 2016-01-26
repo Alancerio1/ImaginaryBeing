@@ -11,7 +11,9 @@ package imaginarybeing;
  */
 public interface Hero {
 
-    public String origin();
+    public abstract void origin(String origin);
 
-    public String name();
+    public abstract void name(String name);
+    
+   
 }

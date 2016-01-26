@@ -16,8 +16,12 @@ public class Start {
      */
     public static void main(String[] args) {
         
-        Hero h = new SuperMan();
-        
-        System.out.println(h.name()+ " " + h.origin());    
+       Batman h = new Batman();
+       SuperMan m = new SuperMan();
+        m.name(null);
+        m.origin(null);
+        h.name(null);
+        h.origin(null);
+       
     }
 }

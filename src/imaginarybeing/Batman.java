@@ -12,15 +12,16 @@ package imaginarybeing;
 public class Batman implements Hero {
 
    
-    
-    public String name() {
-        return "Batman";
+
+
+    @Override
+    public void origin(String origin) {
+        System.out.println("Gotham");
     }
 
-    
-    
-    public String origin() {
-        return "Gotham";
+    @Override
+    public void name(String name) {
+            System.out.println("Batman");
     }
-
+    
 }

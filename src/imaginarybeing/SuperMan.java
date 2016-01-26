@@ -13,14 +13,15 @@ public class SuperMan implements Hero {
 
     
     
-    public String name() {
-        return "Superman";
+  
+    @Override
+    public void origin(String origin) {
+        System.out.println("Metropolis");
     }
 
-    
-    
-    public String origin() {
-        return "Metropolis";
+    @Override
+    public void name(String name) {
+            System.out.println("Superman");
     }
 
 
